@@ -15,12 +15,12 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(500, 500);
+    createCanvas(900, 900);
 
 }
 
 function draw() {
-    background(220);
+    background(0);
     
   
 if (mouseX > width/2){
@@ -33,6 +33,6 @@ if (mouseX > width/2){
 }
     
 
-
+}
     
    
