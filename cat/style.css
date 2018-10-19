@@ -1,15 +1,22 @@
 body{
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Fredericka the Great', cursive;
+font-family: 'IM Fell English', serif;
   margin: 0;
   padding: 0;
-  background-color: lightblue;
-  color: navy;
+  background-color: ghostwhite;
+  color: white;
 }
 h1{
     font-size: 5em;
-    border-style: solid;
-    box-shadow: 5px 10px #888888;
     text-align: center;
+     -webkit-text-stroke: 1px black;
+   color: white;
+   text-shadow:
+       2px 2px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 }
 
 #container{
@@ -29,14 +36,23 @@ h1{
 }
 
 a {  
-  color: chocolate;
+  font-size: 2em;
+  color: slategray;
   transition: color 500ms;
 }
 
 a:hover{
   color: white;
+    text-shadow:
+       2px 2px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 }
-
 p {
     font-size: 2em;
+    text-align: center;
+     -webkit-text-stroke: 1px black;
+   color: white;
 }
