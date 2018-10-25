@@ -1,10 +1,8 @@
 body{
-  font-family: 'Fredericka the Great', cursive;
-font-family: 'IM Fell English', serif;
-  margin: 0;
-  padding: 0;
-  background-color: ghostwhite;
-  color: white;
+  font-family: 'Amatic SC', cursive;
+  margin: 200;
+  padding: 100;
+  color: navy;
 }
 h1{
     font-size: 5em;
@@ -33,13 +31,13 @@ h1{
 
 .link a{
   color: olive;
-    
 }
 
 a {  
   font-size: 2em;
   color: slategray;
   transition: color 500ms;
+
 }
 
 a:hover{
@@ -54,7 +52,7 @@ a:hover{
 
 p {
     font-size: 2em;
-    text-align: center;
+    text-align: left;
      -webkit-text-stroke: 1px black;
    color: white;
 }
