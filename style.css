@@ -32,17 +32,18 @@ h1{
 
 
 .link{
+
   list-style: none;
-  color:hotpink;
-  font-size: 2em;
+  
 }
 
 .link a{
-  color: olive;
+  color: darkblue;
 }
 
 a {  
-  color: chocolate;
+    
+  color: darkblue;
   transition: color 500ms;
 }
 
