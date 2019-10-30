@@ -15,7 +15,10 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(900, 700);
+    var cnv = createCanvas(900, 700);
+    cnv.parent=('content');
+    cnv.style('display', 'block');
+    cnv.position(150,200);
 
 }
 
